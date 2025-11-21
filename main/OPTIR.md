@@ -1,4 +1,4 @@
-# Knowledge Base
+# Optical Photothermal Infrared (O-PTIR)
 
 Eric W. Bridgeford, Alex Loftus, Joshua T. Vogelstein
 

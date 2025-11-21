@@ -1,4 +1,4 @@
-# Knowledge Base
+# s-SNOM Models
 
 Eric W. Bridgeford, Alex Loftus, Joshua T. Vogelstein
 

@@ -2,12 +2,37 @@ format: jb-book
 root: coverpage.md
 
 parts:
-  - caption: Introduction
+  - caption: Fundamentals
     chapters:
-      - file: introduction/preface
-      - file: introduction/terminology
-  - caption: Reference
+      # - file: Fundamentals/preface
+      # - file: Fundamentals/terminology
+      - file: /FTIR
+      - file: /sSNOM
+      - file: /OPTIR
+      - file: /AFM-IR
+      - file: /TDS
+
+  - caption: Practical Aspects
     chapters:
-      - url: https://graspologic.readthedocs.io/en/latest/
-        title: Graspologic Documentation
+      - file: /samples_req
+      - file: /instrum_op
+  
+  - caption: Data Processing and Analysis
+    chapters:
+      - file: /formats
+      - file: /processing
+      - file: /sSNOM_model
+  
+  - caption: Facilities access
+    chapters:
+      - file: /beamtime
+  
+  
+  
+  
+  # - caption: Reference
+    # chapters:
+      # - url: https://graspologic.readthedocs.io/en/latest/
+        # title: Graspologic Documentation
+  
   

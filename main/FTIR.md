@@ -1,5 +1,5 @@
-# Knowledge Base
-
+# Brief intro to IR-THz spectroscopy
+<!-- Optical Photothermal Infrared -->
 Eric W. Bridgeford, Alex Loftus, Joshua T. Vogelstein
 
 ```{figure} Images/test_image.svg

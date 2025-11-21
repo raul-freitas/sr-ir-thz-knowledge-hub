@@ -1,4 +1,4 @@
-# Knowledge Base
+# Time-Domain Spectroscopy (TDS)
 
 Eric W. Bridgeford, Alex Loftus, Joshua T. Vogelstein
 
