@@ -23,8 +23,9 @@ parts:
       - file: /processing
       - file: /sSNOM_model
   
-  - caption: Facilities access
+  - caption: Experimental Access
     chapters:
+      - file: /test
       - file: /beamtime
   
   

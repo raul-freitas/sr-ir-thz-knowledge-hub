@@ -1,38 +1,53 @@
-# A default configuration that will be loaded for all jupyter books
-# See the documentation for help and more options:
-# https://jupyterbook.org/customize/config.html
-
 # Book settings
-title: Hands-on Network Machine Learning with Scikit-Learn and Graspologic
+title: Synchrotron IR-THz Nanospectroscopy Knowledge Hub
 author: Raul Freitas and Ferenc Borondics
-copyright: "2025" # to be placed in the footer
+copyright: "2025"
 logo: logo.png
+
 parse:
   myst_enable_extensions:
     - dollarmath
     - amsmath
-repository:
-  url: https://github.com/neurodata/graph-stats-book
-  path_to_book: network_machine_learning_in_python
-sphinx:
-  extra_extensions:
-    - sphinx_togglebutton
-    - sphinx_proof
-    # - jupyterbook_latex
-    # - sphinx_jupyterbook_latex
-bibtex_bibfiles:
-  - references.bib
-# HTML-specific settings
+
+execute:
+  allow_errors: false
+  timeout: 1000
+
 html:
-  navbar_number_sections: true # Add a number to each section in your left navbar
+  navbar_number_sections: true
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
   comments:
-    hypothesis: true # to allow comments on pages. https://jupyterbook.org/interactive/comments/hypothesis.html
+    hypothesis: true
+    code_folding: true
+    code_toggle: true
 
-# latex settings
+sphinx:
+  config:
+    html_show_source: false
+    code_prompt_show: "Mostrar código"
+    code_prompt_hide: "Ocultar código"
+    html_js_files:
+      - https://unpkg.com/thebe@latest/lib/thebe.min.js
+    html_static_path: ['_static']
+  extra_extensions:
+    - sphinx_togglebutton
+    - sphinx_proof
+
+launch_buttons:
+  notebook_interface: jupyterlab
+  thebe: true
+  binderhub_url: "https://mybinder.org"
+
+repository:
+  url: https://github.com/raul-freitas/sr-ir-thz-knowledge-hub
+  branch: main
+
+bibtex_bibfiles:
+  - references.bib
+
 latex:
   latex_engine: pdflatex
-execute:
-  timeout: 1000
+
+  
