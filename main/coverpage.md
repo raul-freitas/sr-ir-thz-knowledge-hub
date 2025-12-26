@@ -2,7 +2,7 @@
 
 Eric W. Bridgeford, Alex Loftus, Joshua T. Vogelstein
 
-```{figure} Images/test_image.svg
+```{figure} \single_canva.svg
 ---
 height: 600px
 name: maggot-connectome

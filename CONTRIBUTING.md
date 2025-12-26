@@ -24,7 +24,52 @@ When creating graphics, we strongly recommend following the visual identity guid
 
 ### 2.1 Graphics dimensions
 
-### 2.2 Fonts and lines styles
+All figures should be no wider than 800 px. Click on the **Show code** dropdown to see the code for showing figures.
+
+```{dropdown} Show code
+:open: false
+
+```markdown
+```{figure} single_canva.svg
+---
+width: 800px
+name: single_canva
+---
+Figures must have a total width of 800 px, including margins.```
+```
+
+```{figure} single_canva.svg
+---
+width: 800px
+name: single_canva
+---
+Figures must have a total width of 800 px, including margins.
+```
+
+The same should be applied to multi-panels graphics
+
+```{figure} multi_canva.svg
+---
+width: 800px
+name: multi_canva
+---
+Figures based on multiple panels must have a total width of 800 px, including margins.
+```
+
+### 2.2 Fonts, lines styles and graphics formats
+
+Figures should preferably be prepared as vector graphics. When raster images are required, they must be exported at a minimum resolution of 600 ppi (pixels per inch). Arial is the standard font for all graphics in this project, used at 10, 12, and 18 pt sizes and always in the Regular typeface, except where explicitly specified (Arial Bold). Axis ticks must be placed outside the frame. Both the frame and ticks must have a line thickness of 0.25 pt. Data line profiles must be drawn with a line width of 1.0 pt, while model curves and other auxiliary lines must use a line width of 0.5 pt. {numref}`line_profiles` shows a complete guide for line profiles ploting.
+
+
+```{figure} line_profiles.svg
+---
+width: 800px
+name: line_profiles
+---
+Example of a multi-profile plot showing the mid-IR near-field amplitude response of a graphene/hBN heterostructure tuned by an external gate voltage. In blue, annotations indicate font sizes and types, line widths, axis tick layout, and data profile line widths. Original graphics adapted and extracted from {cite}`Maia2019`.
+```
+
+
 
 ### 2.3 Colors code
 
@@ -54,6 +99,6 @@ If you are proposing a feature:
 
 * Explain in detail how it would work.
 * Keep the scope as narrow as possible, to make it easier to implement.
-* Remember that this is a volunteer-driven project, and that contributions
-  are welcome :)
+* Remember that this is a volunteer-driven project, and that contributions are welcome 
+
 
