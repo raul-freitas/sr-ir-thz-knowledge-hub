@@ -22,6 +22,8 @@ html:
     hypothesis: true
     code_folding: true
     code_toggle: true
+  css_files:
+    - _static/custom.css
 
 sphinx:
   config:
@@ -56,5 +58,8 @@ bibtex_bibfiles:
 
 latex:
   latex_engine: pdflatex
+  latex_documents:
+    extra_packages:
+      - booktabs
 
   

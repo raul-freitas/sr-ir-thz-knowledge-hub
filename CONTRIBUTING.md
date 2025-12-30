@@ -69,9 +69,39 @@ name: line_profiles
 Example of a multi-profile plot showing the mid-IR near-field amplitude response of a graphene/hBN heterostructure tuned by an external gate voltage. In blue, annotations indicate font sizes and types, line widths, axis tick layout, and data profile line widths. Original graphics adapted and extracted from {cite}`Maia2019`.
 ```
 
-
-
 ### 2.3 Colors code
+
+```{figure} colors.pdf
+---
+width: 800px
+name: color_maps
+---
+Recommended color schemes for this project. The left columns present colormaps (CMs) for continuous, high-contrast, and diverging representations. Top right: three-color cubes (CBs) for 3D illustrations. Bottom right: suggested colors for beams (Bs). The HEX code for each color is provided.
+```
+
+```{table} Example table caption
+:name: tab-example
+:align: center
+:widths: 40 60
+:class: vcenter
+
+| Graphics type | Recommended color schemes |
+|:---------|:---------|
+|AFM image (topography, amplitude, phase) <br> SEM, TEM or other morphology images| CM01 (standard) or CM06|
+| s-SNOM *amplitude* 2D maps (broadband or narrowband reflectivity) <br> s-SNOM *amplitude* spectral linescan |CM02 (standard), CM04 or CM05|
+| s-SNOM *phase* 2D maps (narrowband absorption) <br> s-SNOM *phase* spectral linescan |CM09 (standard) or CM10|
+| micro-FTIR hyperspectral imaging (transmittance or absorbance) | CM07 |
+| AFM-IR or O-PTIR imaging (absorption) | CM08 |
+| Simulated, modeled or calculated intensity maps | CM03 |
+| X-rays or UV beams | B01 |
+| Visible light beams | B02 |
+| IR beams | B03 |
+| far-IR/THz beams | B04 |
+```
+
+
+
+
 
 ### 2.4 Graphics examples
 
