@@ -69,7 +69,28 @@ name: line_profiles
 Example of a multi-profile plot showing the mid-IR near-field amplitude response of a graphene/hBN heterostructure tuned by an external gate voltage. In blue, annotations indicate font sizes and types, line widths, axis tick layout, and data profile line widths. Original graphics adapted and extracted from {cite}`Maia2019`.
 ```
 
+```{table} Recommended graphics formats. All bitmap images, including embedded graphics, must have a minimum resolution of 600 ppi.
+:name: graphics_formats
+:align: center
+:widths: 40 60
+:class: vcenter
+
+| Graphic type | Best format |
+|-------------|-------------|
+| Line plots | SVG |
+| Schematics / diagrams | SVG |
+| Flowcharts | SVG |
+| Microscopy images | PNG |
+| Photos | JPG |
+| Journal-ready figures | PDF |
+| Logos | SVG or PNG |
+| Icons | SVG |
+```
+
+
 ### 2.3 Colors code
+
+We propose a set of color schemes suitable for different types of graphics. {numref}`color_maps` presents continuous colormaps (CM01–CM05), diverging schemes (CM06, CM09, and CM10), and high-contrast schemes (CM07 and CM08). In addition, for illustrations of experimental setups and sample configurations, we recommend the use of three-color schemes (CB01–CB12). For radiation beams, we suggest using the colors defined as B01–B04. {numref}`graphics_table` summarizes recommended applications of these color schemes across different graphic types.
 
 ```{figure} colors.pdf
 ---
@@ -79,8 +100,8 @@ name: color_maps
 Recommended color schemes for this project. The left columns present colormaps (CMs) for continuous, high-contrast, and diverging representations. Top right: three-color cubes (CBs) for 3D illustrations. Bottom right: suggested colors for beams (Bs). The HEX code for each color is provided.
 ```
 
-```{table} Example table caption
-:name: tab-example
+```{table} Recommended color codes for different types of graphics.
+:name: graphics_table
 :align: center
 :widths: 40 60
 :class: vcenter
@@ -93,17 +114,18 @@ Recommended color schemes for this project. The left columns present colormaps (
 | micro-FTIR hyperspectral imaging (transmittance or absorbance) | CM07 |
 | AFM-IR or O-PTIR imaging (absorption) | CM08 |
 | Simulated, modeled or calculated intensity maps | CM03 |
+| Transparent components | CB01, CB02 or CB03 |
+| General opto-mechanics | CB04, CB05 or CB06 |
+| Translation or angular stages | CB07, CB08 or CB09 |
+| Radiation sources | CB10 (X-rays or UV), CB11 (visible) or CB12 (IR-THz) |
 | X-rays or UV beams | B01 |
 | Visible light beams | B02 |
 | IR beams | B03 |
 | far-IR/THz beams | B04 |
 ```
 
-
-
-
-
 ### 2.4 Graphics examples
+
 
 ## 3. Report Bugs or Content Mistakes
 

@@ -22,6 +22,7 @@ html:
     hypothesis: true
     code_folding: true
     code_toggle: true
+
   css_files:
     - _static/custom.css
 
